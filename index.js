@@ -19,10 +19,11 @@ const managerPrompt = [{
     message: 'Enter team manager name',
   },
   {
-    type: 'input',
+    type: 'rawlist',
     name: 'role',
     message: 'Enter your role',
-    default: 'Manager'
+    default: 'Manager',
+    choices: ['Manager', 'Engineer', 'Intern'],
   },
   {
     type: 'input',
