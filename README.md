@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-1. [Title](Title)
-2. [Description](#Description)
-3. [Installation](#Installation)
-4. [Contribution](#Contribution)
-5. [Walk through](#Walkthrough)
-6. [Screenshot](#Screenshot)
-7. [License](#License)
+
+1. [Description](#Description)
+2. [Installation](#Installation)
+3. [Contribution](#Contribution)
+4. [Walk through](#Walkthrough)
+5. [Screenshot](#Screenshot)
+6. [License](#License)
 
 ## Description
 
