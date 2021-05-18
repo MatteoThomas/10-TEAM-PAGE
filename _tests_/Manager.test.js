@@ -1,14 +1,19 @@
-// employee.test +
-// officeNumber
-const Employee = require('./Employee.test');
+const Manager = require('../lib/manager');
 
-class Manager extends Employee {
-  constructor(name, id, email) {
+test("set office number from constructor arguments", () => {
+  const testValue = 69;
+  const e = new Manager("test", 1, "matty@ell.com", testValue);
+  expect(e.office).toBe(testValue)
+})
 
-    this.officeNumber = office;
-    
-  }
-}
+test("getRole function  should return manager", () => {
+  const testValue = "Manager";
+  const e = new Manager("test", 1, "matty@ell.com", testValue);
+  expect(e.getRole()).toBe(testValue);
+})
 
-//getRole() - overridden to return 'manager'
-
+test("gets office number from getOffice function", () => {
+  const testValue = 69;
+  const e = new Manager("test", 1, "matty@ell.com", testValue);
+  expect(e.getOffice()).toBe(testValue);
+})

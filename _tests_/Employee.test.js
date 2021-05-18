@@ -1,22 +1,25 @@
-class Employee {
+const Employee = require("../lib/employee");
 
-constructor(name, id, email) {
-    this.name = name;
-    this.id = id;
-    this.email = email;
-  }
-}
+test("set name from constructor arguments", () => {
+  const name = "Matty";
+  const e = new Employee(name);
+  expect(e.name).toBe(name)
+})
 
-module.exports = Employee;
-
-
-//email
-
-//getName()
-
-//getId()
-
-//getEmail()
-
-//getRole()-returns 'Employee'
-
+test("set id from constructor argument", () => {
+  const testValue = 69;
+  const e = new Employee("test", testValue);
+  expect(e.id).toBe(testValue);
+})
+/*
+test("can set email from  constructor argument", () => {
+  const testValue = "matty@ell.com.com";
+  const e = new Employee("test", 1, testValue);
+  expect(e.email).toBe(testValue);
+})
+*/
+test("can get name  from  getName function", () => {
+  const testValue = "Matty";
+  const e = new Employee(testValue);
+  expect(e.getName()).toBe(testValue);
+})

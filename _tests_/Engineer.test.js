@@ -1,15 +1,19 @@
-// employee.test +
-// github - github username
+const Engineer = require("../lib/engineer");
 
-const Employee = require('./Employee.test');
+test("sets Github user name from constructor arguments", () => {
+  const testValue = "Github";
+  const e = new Engineer("test", 1, "matty@ell.com", testValue);
+  expect(e.github).toBe(testValue)
+})
 
-class Engineer extends Employee {
-  constructor(name, id, email) {
-    this.github = github;
-    
-  }
-}
+test("getRole function  should return Engineer", () => {
+  const testValue = "Engineer";
+  const e = new Engineer("test", 1, "matty@ell.com", "Github");
+  expect(e.getRole()).toBe(testValue);
+})
 
-// getGithub()
-
-// getRole() - overridden to return 'engeneer'
+test("can get github user name from getGithub function", () => {
+  const testValue = 69;
+  const e = new Engineer("foo", 1, "matty@ell.com", testValue);
+  expect(e.getGithub()).toBe(testValue);
+})
