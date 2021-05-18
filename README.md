@@ -28,7 +28,7 @@ Myself
 
 ## Walkthrough:
 
-[Walkthrough](https://drive.google.com/file/d/1DAtHGeAqQ7yb4VXlPAMEG4zgTmYlhWD9/view)
+[Walkthrough Video](https://drive.google.com/file/d/1DAtHGeAqQ7yb4VXlPAMEG4zgTmYlhWD9/view)
 
 ## Screenshot
 
