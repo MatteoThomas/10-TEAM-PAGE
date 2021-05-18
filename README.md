@@ -32,7 +32,7 @@ Myself
 
 ## Screenshot
 
-![screenshot](/assets/img/10HomeworkPreview.png)
+![screenshot](https://github.com/MatteoThomas/10-TEAM-PAGE/blob/main/assets/IMG/10HomeworkPreview.png)
 
 ## License
 
