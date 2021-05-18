@@ -32,7 +32,7 @@ Myself
 
 ## Screenshot
 
-![HTML webpage titled “My Team” features three boxes listing employee names, titles, and other key info.](./assets/img/10HomeworkPreview.png)
+![HTML webpage titled “My Team” features three boxes listing employee names, titles, and other key info.](../assets/img/10HomeworkPreview.png)
 
 ## License
 
