@@ -6,7 +6,7 @@
 2. [Description](#Description)
 3. [Installation](#Installation)
 4. [Contribution](#Contribution)
-5. [Walkthrough Video](#Walkthrough)
+5. [Walkthrough](#Walkthrough)
 6. [Screenshot](#Screenshot)
 7. [License](#License)
 
