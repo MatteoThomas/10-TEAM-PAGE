@@ -6,7 +6,7 @@ const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 //const writeFileAsync = util.promisify(fs.writeFile);
-const generateHTML = require('./lib/generateHTML.js');
+const generateHTML = require('./src/generateHTML.js');
 
 const Team = [];
 
@@ -24,7 +24,7 @@ const managerPrompt = [{
 
   {
     type: 'input',
-    name: 'Email',
+    name: 'email',
     message: 'Enter your email address',
   },
 
@@ -60,7 +60,6 @@ const engineerPrompt = () => {
       {
         type: 'input',
         name: 'email',
-
         message: "Enter your engineer's email address",
       },
 
@@ -80,7 +79,7 @@ const engineerPrompt = () => {
 
     ])
     .then((data) => {
-      var engineer = new Engineer(data.name, data.id, data.id, data.email, data.github)
+      var engineer = new Engineer(data.name, data.id, data.email, data.github)
       Team.push(
         engineer
       );
