@@ -26,7 +26,7 @@ Myself
 
 [Matteo Thomas](https://github.com/MatteoThomas)
 
-## Walkthrough Video:
+## Walkthrough:
 
 [Walkthrough](https://drive.google.com/file/d/1DAtHGeAqQ7yb4VXlPAMEG4zgTmYlhWD9/view)
 
