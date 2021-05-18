@@ -32,7 +32,7 @@ Myself
 
 ## Screenshot
 
-(./assets/img/10HomeworkPreview.png)
+![screenshot](assets/img/10HomeworkPreview.png)
 
 ## License
 
